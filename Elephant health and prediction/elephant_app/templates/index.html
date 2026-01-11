@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinnawala AI | Advanced Elephant Health Monitoring</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="landing-page">
+
+    <nav class="glass-nav">
+        <div class="container navbar">
+            <div class="logo">Elephant <span>Health Detector</span></div>
+            <div>
+                <a href="{{ url_for('login') }}" class="btn btn-outline">Vet Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container hero-content">
+            <h1>Protecting Giants with <br><span>Artificial Intelligence</span></h1>
+            <p>A state-of-the-art health monitoring system for the Pinnawala Elephant Orphanage. detecting risks early
+                to ensure a healthier future.</p>
+            <div class="hero-buttons">
+                <a href="{{ url_for('login') }}" class="btn btn-primary">Go to Dashboard</a>
+                <a href="#features" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Pinnawala AI?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon">🔍</div>
+                    <h3>Early Diagnosis</h3>
+                    <p>AI algorithms analyze physiological data to predict health risks like Infection, Dehydration, and
+                        Arthritis before they become critical.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📊</div>
+                    <h3>Real-time Monitoring</h3>
+                    <p>Track vital signs daily. Instant visual alerts ensure that veterinarians can take immediate
+                        action.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🐘</div>
+                    <h3>Individual Profiles</h3>
+                    <p>Comprehensive history and specific health insights for every elephant in the orphanage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="landing-footer">
+        <div class="container">
+            <p>&copy; 2025 Pinnawala Elephant Orphanage. Powered by AI.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

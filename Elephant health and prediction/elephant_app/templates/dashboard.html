@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Elephant Health Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <nav class="glass-card" style="border-radius: 0; padding: 1rem 2rem; border-left: 0; border-right:0; border-top:0;">
+        <div class="container navbar" style="margin: 0; padding:0; border: none;">
+            <div class="logo">Elephant <span>Health Detector</span></div>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <span style="color: var(--text-muted);">Welcome, {{ user }}</span>
+                <a href="{{ url_for('add_elephant') }}" class="btn btn-primary"
+                    style="padding: 0.5rem 1rem; font-size: 0.9rem;">+ Add Elephant</a>
+                <a href="{{ url_for('logout') }}" class="btn"
+                    style="background: transparent; border: 1px solid var(--glass-border); color: #fff; padding: 8px 16px;">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Overview</h1>
+        <p style="color: var(--text-muted);">Monitoring 5 Active Profiles</p>
+
+        <div class="dashboard-grid">
+            {% for elephant in elephants %}
+            <a href="{{ url_for('elephant_profile', elephant_id=elephant['id']) }}" class="glass-card elephant-card">
+                <img src="{{ elephant['image_url'] }}" alt="{{ elephant['name'] }}" class="elephant-img">
+                <h2>{{ elephant['name'] }}</h2>
+                <p style="color: var(--text-muted);">{{ elephant['age'] }} Years Old</p>
+
+                <div class="status-badge status-{{ elephant['status'] }}">
+                    {{ elephant['status'] }}
+                </div>
+
+                {% if elephant['diagnosis'] != 'None' and elephant['diagnosis'] != None %}
+                <div style="margin-top: 0.5rem; color: #ff0040; font-size: 0.8rem; font-weight: 700;">
+                    ⚠️ Risk: {{ elephant['diagnosis'] }}
+                </div>
+                {% endif %}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>
