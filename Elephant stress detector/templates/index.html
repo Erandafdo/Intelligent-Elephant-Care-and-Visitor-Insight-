@@ -1,0 +1,299 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="profile-container">
+    <!-- Elephant Profile Card -->
+    <div class="profile-card">
+        <div class="profile-header">
+            <div class="profile-image">
+                <!-- Using the placeholder or video feed as the 'live' image -->
+                <div class="live-status-ring">
+                    <img src="{{ url_for('video_feed') }}" alt="Live Feed" class="live-img">
+                </div>
+                <div class="status-badge pulse" id="currentStatusBadge">MONITORING</div>
+            </div>
+
+            <div class="profile-details">
+                <div class="name-row">
+                    <h1 class="elephant-name">{{ elephant.name }}</h1>
+                    <button class="btn-check-live" onclick="openLiveModal()">Check Live</button>
+                </div>
+                <div class="id-tag">ID: {{ elephant.id }}</div>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="label">Age</span>
+                        <span class="value">{{ elephant.age }} Years</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">Status</span>
+                        <span class="value" id="currentStressVal">Normal</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">Today's Risk</span>
+                        <span class="value" id="riskVal">Low</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart Section -->
+    <div class="chart-section card">
+        <div class="chart-header">
+            <h3>Stress Level History (Last 7 Days)</h3>
+            <div class="chart-legend">
+                <span class="legend-item"><span class="dot normal"></span> Normal</span>
+                <span class="legend-item"><span class="dot dangerously"></span> High Stress</span>
+            </div>
+        </div>
+        <div class="chart-wrapper-large">
+            <canvas id="stress7DayChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Live Feed Modal -->
+<div id="liveModal" class="live-modal">
+    <div class="live-modal-content">
+        <span class="close-modal" onclick="closeLiveModal()">&times;</span>
+        <img id="modalVideoFeed" src="" alt="Live Stream" class="live-modal-img">
+        <div class="modal-footer">
+            Watching {{ elephant.name }} • Live Stream
+        </div>
+    </div>
+</div>
+
+<!-- Critical Alert Modal -->
+<div id="alertModal" class="alert-modal">
+    <div class="alert-content">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-title">Critical Stress!</div>
+        <div class="alert-message">
+            High levels of stereotypic behavior detected.<br>
+            Immediate attention recommended.
+        </div>
+        <button class="btn-dismiss" onclick="dismissAlert()">Acknowledge</button>
+    </div>
+</div>
+
+<script>
+    const ctx = document.getElementById('stress7DayChart').getContext('2d');
+
+    // Gradient
+    const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+    gradient.addColorStop(0, 'rgba(207, 69, 69, 0.6)');
+    gradient.addColorStop(1, 'rgba(207, 69, 69, 0.0)');
+
+    const chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [
+                {
+                    label: 'Stress Probability (%)',
+                    data: [],
+                    borderColor: '#cf4545',
+                    backgroundColor: gradient,
+                    borderWidth: 3,
+                    pointBackgroundColor: '#1a2f23',
+                    pointBorderColor: '#d4a017',
+                    pointRadius: 4,
+                    pointHoverRadius: 6,
+                    fill: true,
+                    tension: 0.4,
+                    yAxisID: 'y'
+                },
+                {
+                    label: 'Danger Threshold',
+                    data: [],
+                    borderColor: 'rgba(212, 160, 23, 0.5)',
+                    borderWidth: 2,
+                    borderDash: [5, 5],
+                    pointRadius: 0,
+                    fill: false,
+                    yAxisID: 'y'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false,
+            },
+            plugins: {
+                legend: {
+                    display: true,
+                    labels: { color: '#a0a0a0' }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(26, 47, 35, 0.95)',
+                    titleColor: '#d4a017',
+                    bodyColor: '#f4f4f4',
+                    borderColor: 'rgba(212, 160, 23, 0.3)',
+                    borderWidth: 1,
+                    padding: 10,
+                    callbacks: {
+                        label: function (context) {
+                            let label = context.dataset.label || '';
+                            if (label) {
+                                label += ': ';
+                            }
+                            if (context.parsed.y !== null) {
+                                label += Math.round(context.parsed.y) + '%';
+                                if (context.datasetIndex === 0) { // Only for main dataset
+                                    if (context.parsed.y > 70) label += ' (Critical)';
+                                    else if (context.parsed.y > 30) label += ' (Elevated)';
+                                    else label += ' (Calm)';
+                                }
+                            }
+                            return label;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: {
+                        color: '#a0a0a0',
+                        callback: function (value) {
+                            if (value === 0) return 'Calm (0%)';
+                            if (value === 50) return 'Elevated (50%)';
+                            if (value === 100) return 'Critical (100%)';
+                            return value + '%';
+                        }
+                    }
+                },
+                x: {
+                    grid: { display: false },
+                    ticks: {
+                        color: '#a0a0a0',
+                        maxRotation: 0,
+                        autoSkip: true,
+                        maxTicksLimit: 8
+                    }
+                }
+            }
+        }
+    });
+
+    let alertDismissed = false;
+    let lastStressState = false; // false = normal, true = stressed
+
+    // Request Notification Permission
+    if ("Notification" in window) {
+        Notification.requestPermission();
+    }
+
+    function updateData() {
+        fetch('/api/history')
+            .then(res => res.json())
+            .then(data => {
+                // Update Badge & Current Status based on latest log
+                if (data.length > 0) {
+                    const latest = data[data.length - 1]; // SQL ordered by ASC for chart, so last is newest
+                    const isStressed = latest.stress_level === 1;
+                    const prob = latest.stress_probability * 100;
+
+                    const badge = document.getElementById('currentStatusBadge');
+                    const statusVal = document.getElementById('currentStressVal');
+                    const riskVal = document.getElementById('riskVal');
+
+                    if (isStressed) {
+                        badge.innerText = "STRESSED";
+                        badge.style.background = "#cf4545";
+                        statusVal.innerText = "High Stress";
+                        statusVal.style.color = "#cf4545";
+                        riskVal.innerText = "Critical";
+
+                        // Trigger Alert
+                        if (!alertDismissed && prob > 70) {
+                            showAlert();
+                        }
+                        lastStressState = true;
+
+                    } else {
+                        badge.innerText = "CALM";
+                        badge.style.background = "#4bb543";
+                        statusVal.innerText = "Normal";
+                        statusVal.style.color = "#4bb543";
+                        riskVal.innerText = "Low";
+
+                        // Reset alert if back to normal
+                        if (lastStressState) {
+                            alertDismissed = false;
+                        }
+                        lastStressState = false;
+                    }
+                }
+
+                // Update Chart (Last 7 Days)
+                const labels = data.map(d => {
+                    const date = new Date(d.timestamp + "Z"); // UTC assumption
+                    // Short time format: HH:MM
+                    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                });
+
+                const values = data.map(d => d.stress_probability * 100);
+                const thresholdValues = new Array(values.length).fill(70); // 70% static threshold line
+
+                chart.data.labels = labels;
+                chart.data.datasets[0].data = values;
+                chart.data.datasets[1].data = thresholdValues;
+                chart.update('none');
+            });
+    }
+
+    // Alert Logic
+    const alertModal = document.getElementById('alertModal');
+
+    function showAlert() {
+        alertModal.classList.add('show');
+
+        // System Notification
+        if (Notification.permission === "granted") {
+            new Notification("Critical Stress Alert!", {
+                body: "High levels of stereotypic behavior detected in Raja.",
+                icon: "/static/icon.png" // Optional
+            });
+        }
+    }
+
+    function dismissAlert() {
+        alertModal.classList.remove('show');
+        alertDismissed = true;
+    }
+
+    setInterval(updateData, 1000);
+    updateData(); // Initial call
+
+    // Modal Logic
+    const modal = document.getElementById('liveModal');
+    const modalImg = document.getElementById('modalVideoFeed');
+    const feedUrl = "{{ url_for('video_feed') }}";
+
+    function openLiveModal() {
+        modal.classList.add('show');
+        // Set src on open to ensure fresh stream/reload
+        modalImg.src = feedUrl;
+    }
+
+    function closeLiveModal() {
+        modal.classList.remove('show');
+        // Clear src to stop buffering/streaming in background (optional but good practice)
+        modalImg.src = "";
+    }
+
+    // Close when clicking outside the content
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            closeLiveModal();
+        }
+    }
+</script>
+{% endblock %}
