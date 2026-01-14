@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* CUSTOMER FRONTEND COLORS - EXACT MATCH */
+  --background: #FEFAE0;
+  /* Ivory Soft */
+  --foreground: #0D2B1A;
+  /* Jungle 900 */
+
+  /* Jungle Greens */
+  --jungle-900: #0D2B1A;
+  --jungle-800: #1A4D2E;
+  --jungle-700: #276F43;
+  --jungle-100: #E8F5E9;
+
+  /* Earth Tones */
+  --earth-900: #8B5E3C;
+  --earth-500: #D4A373;
+  --earth-100: #FAEDCD;
+
+  /* Ivory */
+  --ivory: #FEFAE0;
+
+  /* Functional Colors */
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- PREMIUM CARD SYSTEM --- */
+.card-premium {
+  background: white;
+  border: 1px solid var(--earth-100);
+  border-radius: 20px;
+  box-shadow:
+    0 4px 6px -1px rgba(13, 43, 26, 0.08),
+    0 2px 4px -1px rgba(13, 43, 26, 0.04);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 20px 25px -5px rgba(13, 43, 26, 0.12),
+    0 10px 10px -5px rgba(13, 43, 26, 0.06);
+  border-color: var(--earth-500);
+}
+
+.card-elevated {
+  background: white;
+  border-radius: 24px;
+  box-shadow:
+    0 10px 15px -3px rgba(13, 43, 26, 0.1),
+    0 4px 6px -2px rgba(13, 43, 26, 0.05);
+}
+
+/* --- GRADIENT BACKGROUNDS (EARTH TONES) --- */
+.gradient-jungle {
+  background: linear-gradient(135deg, var(--jungle-800) 0%, var(--jungle-700) 100%);
+}
+
+.gradient-earth {
+  background: linear-gradient(135deg, var(--earth-500) 0%, var(--earth-900) 100%);
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+}
+
+/* --- STAT CARDS WITH DEPTH --- */
+.stat-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  transform: rotate(45deg);
+}
+
+/* --- SMOOTH ANIMATIONS --- */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.skeleton {
+  background: linear-gradient(90deg,
+      #f0f0f0 0px,
+      #e0e0e0 40px,
+      #f0f0f0 80px);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* --- SCROLLBAR (EARTH TONES) --- */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--earth-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--earth-500);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--earth-900);
+}
+
+/* --- UTILITY CLASSES --- */
+.text-gradient-earth {
+  background: linear-gradient(135deg, var(--earth-500) 0%, var(--earth-900) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.shadow-soft {
+  box-shadow: 0 2px 8px 0 rgba(13, 43, 26, 0.08);
+}
+
+.shadow-medium {
+  box-shadow: 0 4px 12px 0 rgba(13, 43, 26, 0.1);
+}
+
+.shadow-strong {
+  box-shadow: 0 8px 24px 0 rgba(13, 43, 26, 0.15);
+}
+
+.shadow-glow-earth {
+  box-shadow: 0 0 20px rgba(212, 163, 115, 0.3);
+}
+
+/* --- BUTTON STYLES (MATCHING CUSTOMER FRONTEND) --- */
+.btn-primary {
+  background: var(--earth-500);
+  color: var(--jungle-900);
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s;
+  box-shadow: 0 4px 14px 0 rgba(212, 163, 115, 0.39);
+}
+
+.btn-primary:hover {
+  background: var(--earth-900);
+  color: var(--earth-100);
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background: rgba(26, 77, 46, 0.8);
+  backdrop-filter: blur(10px);
+  color: var(--ivory);
+  border: 1px solid rgba(212, 163, 115, 0.3);
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+  background: rgba(39, 111, 67, 0.8);
+}
