@@ -1,0 +1,125 @@
+/* Dashboard Controls */
+.dashboard-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background: var(--glass-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+}
+
+.controls-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    min-width: 250px;
+    margin-bottom: 0;
+}
+
+.filter-select {
+    min-width: 150px;
+    margin-bottom: 0;
+}
+
+.view-toggle {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.view-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.view-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.view-btn.active {
+    background: rgba(0, 242, 234, 0.2);
+    color: var(--primary-accent);
+}
+
+/* List View Layout */
+.dashboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.elephant-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.elephant-list-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateX(5px);
+}
+
+.list-item-left {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.elephant-list-item .elephant-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.list-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item-details h2 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.25rem;
+}
+
+.list-item-details p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.list-item-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-width: 300px;
+    justify-content: flex-end;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    background: var(--glass-bg);
+    border-radius: 12px;
+    border: 1px dashed var(--glass-border);
+}

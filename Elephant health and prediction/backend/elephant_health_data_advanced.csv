@@ -1,0 +1,1001 @@
+Age,Temperature_C,Heart_Rate_BPM,Respiratory_Rate_BPM,Weight_Change_Percent,Food_Intake_Percent,Stool_Consistency,Activity_Level,Edema,Trunk_Moisture,Mucous_Membrane,Gait_Score,Health_Status,Diagnosis
+56,36.1,28,7,-0.9,92,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+50,36.6,25,9,-0.0,46,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+55,36.3,35,10,-0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.6,35,10,-0.3,95,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+33,36.8,29,11,-0.7,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,36.3,31,11,-0.5,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,36.5,27,10,-0.3,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+12,36.3,27,6,0.0,93,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+63,36.1,26,11,0.0,91,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+33,40.0,51,4,0.8,52,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+57,36.2,25,4,0.9,98,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+17,36.3,33,8,0.6,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+25,36.5,29,8,1.0,50,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+14,36.8,33,12,0.5,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.1,35,5,-0.3,50,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+41,36.4,30,11,-1.0,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,36.2,34,11,-0.1,31,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+54,36.3,27,12,-0.7,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+69,38.2,59,7,0.2,55,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+34,36.8,29,4,-0.2,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.7,26,5,1.0,65,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+50,36.9,27,13,-0.1,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+47,37.0,25,13,-0.7,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+51,39.1,50,11,-0.3,44,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+36,36.6,27,12,0.9,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+32,36.5,35,9,0.9,97,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+52,36.6,34,12,-0.2,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.1,34,8,0.5,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+44,39.5,59,9,-0.5,22,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+60,36.6,34,15,1.0,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+33,37.0,30,15,0.1,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+47,38.1,50,8,-0.9,37,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+12,36.1,29,9,0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,36.2,29,11,-0.0,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+47,36.7,29,7,0.4,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,36.4,32,10,-0.7,96,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+13,36.5,33,4,0.8,93,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+24,36.7,34,8,-0.6,38,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+8,36.9,25,5,0.1,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+8,36.0,28,11,0.2,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,39.4,51,9,0.9,39,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+35,36.3,27,6,0.8,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.2,29,11,-0.0,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+48,36.4,33,8,1.0,93,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+6,36.8,30,11,-0.9,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+19,36.9,28,10,0.9,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.5,33,10,0.0,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+10,36.3,35,4,-0.7,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.8,35,8,-0.8,32,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+8,36.9,30,6,-0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+60,36.6,34,5,1.0,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.6,35,9,0.0,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,36.8,25,13,0.6,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+39,36.0,34,6,-0.8,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+63,36.8,27,9,-0.7,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+40,39.7,45,8,0.4,53,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+56,36.1,30,9,-0.9,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.5,35,8,0.6,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.5,31,11,0.7,96,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+39,36.3,26,10,-0.8,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.5,32,8,0.0,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,36.6,30,5,-0.1,95,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+39,36.2,28,6,0.7,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.7,26,6,0.5,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+41,38.3,47,11,-0.5,32,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+70,36.8,31,4,-0.5,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+58,36.4,35,15,-0.9,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+33,36.9,34,7,0.9,95,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+68,36.7,34,9,-0.5,99,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+36,36.5,25,6,0.1,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.1,31,15,-0.5,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+70,38.7,45,9,-0.8,54,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+33,36.5,28,11,0.3,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.2,27,10,-0.7,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+37,36.6,26,10,-0.0,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+14,36.2,30,8,-0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.3,32,5,-0.4,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+16,37.0,35,7,0.2,94,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+31,36.3,30,9,-0.5,31,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+58,36.9,32,11,0.2,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+5,36.1,29,9,-1.0,93,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+14,36.2,33,6,-0.7,51,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+51,36.5,33,11,-1.0,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+25,36.7,31,5,-0.7,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,36.5,29,9,-0.6,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+68,39.4,53,6,-0.2,20,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+24,39.9,43,7,0.5,43,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+21,36.9,25,6,0.8,94,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+26,38.3,43,5,0.9,26,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+70,37.0,33,13,-0.5,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+30,36.2,35,6,-0.7,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,36.0,26,11,-0.5,99,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+21,36.1,25,9,-0.3,98,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+29,36.3,26,8,0.6,94,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+70,38.5,55,7,-0.1,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+54,36.3,26,10,0.8,52,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+45,36.5,25,14,-0.8,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,39.5,57,4,0.0,26,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+64,36.5,28,4,0.2,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.2,27,14,0.0,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+11,36.1,27,6,0.0,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+25,36.4,28,8,0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+19,36.7,29,10,-1.0,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.5,28,8,0.2,97,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+59,39.9,57,4,0.7,20,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+21,36.0,31,4,0.3,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+48,36.0,26,13,0.4,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+19,36.1,33,9,0.7,47,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+56,36.8,27,12,0.3,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+16,39.5,41,4,0.2,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+24,36.6,25,12,-0.4,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+48,39.8,56,4,-0.1,54,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+54,39.0,50,12,-0.5,42,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+10,36.0,26,7,-0.9,56,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+70,36.6,29,6,0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,39.4,53,4,-0.7,39,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+15,36.7,25,6,-0.8,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.3,34,8,0.3,49,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+12,39.0,60,6,0.7,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+38,36.4,30,12,0.2,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+13,36.9,35,6,-0.6,94,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+9,36.0,31,7,-0.2,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,37.0,31,13,0.2,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+40,36.1,28,4,0.4,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+49,36.9,32,10,-0.0,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+12,36.1,26,9,-0.3,56,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+70,36.3,32,7,0.0,59,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+69,36.4,30,9,1.0,45,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+16,36.8,35,11,-0.4,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,39.3,41,7,-0.7,55,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+28,36.9,34,12,0.4,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+63,36.6,26,8,0.2,38,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+7,36.9,27,6,0.4,54,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+30,39.1,41,4,0.4,52,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+61,36.1,34,13,-0.4,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+38,36.5,25,8,0.7,58,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+15,36.5,33,6,0.9,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,37.0,35,10,-0.7,91,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+48,36.0,32,4,-0.8,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.1,26,11,-0.7,95,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+60,37.0,26,5,0.7,90,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+30,36.4,33,4,-0.4,98,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+47,36.5,27,12,0.1,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+50,36.6,34,4,0.8,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+24,36.4,25,6,0.1,57,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+49,36.6,26,4,0.2,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.2,29,15,0.9,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+53,38.2,46,5,0.4,21,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+60,36.4,34,8,-0.9,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+67,36.5,27,10,-0.2,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+53,36.2,35,5,-0.6,100,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+61,39.6,43,6,0.4,57,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+49,39.9,48,8,-0.5,54,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+58,36.4,29,6,-0.5,92,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+38,37.0,35,15,-0.8,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+32,38.4,41,7,0.1,55,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+12,36.4,30,6,-0.5,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+46,37.0,31,10,0.1,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+30,38.9,51,8,-0.9,29,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+40,36.0,33,15,0.7,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+29,36.3,35,11,-0.8,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+7,36.8,32,8,-0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+11,36.6,25,10,-1.0,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+62,36.5,27,11,0.5,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+16,37.0,31,11,-0.2,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.2,26,11,-0.2,40,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+70,36.5,30,6,0.8,53,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+20,36.0,26,8,0.4,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.4,26,6,-0.9,94,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+27,36.1,26,8,-0.3,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,36.3,34,10,-0.7,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+37,36.8,30,8,-0.5,68,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+18,39.3,47,10,0.1,49,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+7,36.9,34,8,0.6,59,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+62,36.2,32,13,-0.5,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+8,36.8,28,9,0.4,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,38.1,46,7,-0.1,29,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+34,37.0,27,12,-0.1,33,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+35,37.0,34,7,0.4,100,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+36,36.3,27,4,0.9,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+40,36.0,32,5,0.8,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+70,36.9,33,9,-0.2,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+13,36.8,35,8,0.1,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.1,30,6,0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,36.4,27,12,-0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,36.4,34,10,0.7,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+33,36.8,29,8,-0.9,96,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+52,36.3,26,10,0.6,55,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+66,36.3,26,7,-0.6,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+70,36.2,29,10,0.6,91,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+40,36.5,35,4,0.7,93,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+57,36.7,33,10,-0.5,59,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+18,36.3,29,4,-0.9,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.3,30,10,0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,36.7,28,9,0.9,100,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+22,36.7,33,5,0.2,40,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+13,38.6,57,9,0.6,45,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+55,38.7,52,11,0.2,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+40,36.4,27,13,0.4,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+61,36.7,29,7,-0.7,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.6,29,10,0.2,57,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+11,36.8,30,14,-0.4,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+12,36.2,27,11,-0.6,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+57,36.6,25,10,0.3,52,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+56,36.4,26,12,-0.9,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+38,36.7,30,12,0.3,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.2,30,11,-0.7,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,38.9,54,11,-0.9,35,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+39,36.7,29,9,-0.2,91,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+64,36.8,31,8,0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+37,36.8,26,6,-0.7,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+8,36.7,28,11,-0.8,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.2,29,10,-0.5,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.1,31,6,-0.0,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+61,36.8,25,5,0.9,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,36.5,31,5,-0.4,99,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+13,36.0,27,7,0.9,95,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+46,37.0,32,8,0.8,98,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+68,36.1,34,4,0.0,55,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+6,37.0,33,12,0.9,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+18,36.9,32,11,-0.9,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.8,25,10,0.3,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+46,36.6,30,12,0.7,43,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+38,36.7,35,5,-0.4,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.7,32,12,-0.3,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+62,36.5,28,13,0.5,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+70,36.4,33,9,-0.9,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+44,38.9,47,9,-0.0,34,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+33,36.3,33,9,-0.9,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,36.6,35,7,-0.8,41,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+28,36.4,29,12,0.2,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+51,36.3,35,8,0.1,94,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+14,36.5,29,12,0.2,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+11,36.2,31,8,0.1,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+55,36.3,27,5,-0.6,99,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+41,37.0,29,5,-0.1,92,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+26,36.5,33,10,0.8,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+28,38.9,44,8,0.6,22,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+50,36.9,34,14,0.6,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+63,36.6,30,5,0.8,97,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+59,36.9,31,11,0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.8,31,6,-0.3,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,38.5,58,12,0.3,36,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+42,36.0,30,5,-0.2,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.7,32,8,-0.6,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+54,36.0,27,8,-0.8,94,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+64,36.0,35,14,0.5,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+44,38.8,49,7,0.5,39,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+60,36.5,35,4,-0.7,54,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+10,36.2,34,9,-0.8,91,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+11,36.6,31,7,-0.2,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,37.0,34,10,1.0,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.6,26,13,0.8,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+33,36.7,25,4,-0.6,92,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+39,36.4,33,11,-0.7,98,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+5,36.4,30,12,0.5,34,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+54,36.4,29,8,0.3,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+13,36.4,35,15,0.9,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+11,36.6,34,5,-0.5,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.2,31,11,0.0,32,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+44,36.1,34,10,0.2,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+31,36.3,25,12,-0.9,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,39.9,44,8,0.1,28,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+58,36.4,33,9,-0.4,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+23,36.9,32,12,-0.3,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.5,31,10,0.4,67,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+31,36.5,29,10,0.3,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+24,36.6,32,11,0.9,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+23,40.0,52,9,0.2,38,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+7,36.9,35,9,-0.5,94,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+66,36.9,35,7,0.8,61,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+10,36.2,25,4,-0.2,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+11,36.8,29,11,0.8,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+10,36.4,25,10,-0.3,47,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+38,36.7,31,4,0.7,100,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+22,36.0,29,6,0.5,98,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+68,36.9,32,5,0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.6,33,8,0.4,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.9,33,9,-0.0,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+9,36.9,30,4,-0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,36.6,26,4,0.6,91,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+68,36.2,29,5,0.8,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.7,34,4,-0.8,30,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+68,36.1,30,4,-0.9,92,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+52,36.2,28,6,0.0,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,39.2,50,7,-0.5,27,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+31,36.8,26,8,-0.0,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+38,36.2,28,11,0.0,100,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+11,36.8,27,7,0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+49,36.5,27,11,-0.9,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+16,36.2,32,5,0.7,44,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+8,36.3,33,8,0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.8,29,5,0.5,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.1,30,8,-0.9,50,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+60,36.2,29,10,0.2,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.8,28,11,0.3,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+7,36.1,34,11,-0.8,94,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+20,36.7,32,6,-0.5,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.7,35,7,-0.8,100,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+47,36.2,26,10,0.9,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.6,35,11,-0.1,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.1,31,9,0.6,40,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+14,36.4,27,10,0.2,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+43,36.9,25,7,0.5,90,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+38,36.5,26,4,0.6,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+68,36.7,33,15,0.6,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,36.5,31,4,0.2,94,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+18,38.2,58,4,-0.6,30,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+36,39.3,51,7,-0.8,54,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+55,36.9,33,6,0.6,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+15,36.9,35,10,-0.2,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,37.0,29,4,-0.2,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.6,32,12,0.3,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+18,36.3,35,9,0.3,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,36.4,25,5,0.3,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+45,36.4,28,7,-0.2,30,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+59,36.4,34,11,0.2,99,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+36,36.2,27,12,0.8,96,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+20,36.9,28,14,-1.0,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+48,36.7,27,4,-0.7,91,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+15,36.5,33,11,0.4,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,36.5,29,15,-0.4,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+67,39.1,58,9,-0.9,59,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+50,36.1,33,5,-0.2,100,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+18,38.8,44,4,-0.4,26,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+20,36.5,32,14,0.4,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+41,36.5,34,10,0.0,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+34,36.4,27,5,-1.0,99,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+61,38.7,53,5,0.3,40,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+8,36.7,26,6,-1.0,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+70,36.6,33,8,-0.2,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+65,36.8,25,5,-0.3,91,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+56,36.9,30,4,-0.5,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+15,36.3,25,10,-0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.3,35,9,-0.4,100,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+32,36.3,28,10,0.7,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+69,36.8,31,4,-0.9,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.4,35,10,-0.9,61,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+67,39.1,46,10,1.0,31,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+56,36.2,34,8,0.9,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+49,36.2,34,6,0.8,46,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+49,37.0,27,4,-0.3,98,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+29,38.6,40,12,-0.5,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+14,36.3,34,10,0.5,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,36.3,35,10,-0.6,53,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+43,36.8,32,4,0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+34,36.1,35,7,-0.3,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+42,36.9,30,6,0.7,63,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+24,36.1,25,9,-0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,39.9,43,11,-0.5,38,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+7,36.9,35,5,-0.9,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,38.4,48,11,0.1,37,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+17,36.1,32,11,-0.3,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,36.9,25,12,-0.7,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,39.0,58,9,-0.6,43,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+24,36.6,33,8,0.3,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+67,39.3,56,8,0.1,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+15,36.9,25,15,0.4,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+29,36.1,31,10,0.8,92,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+29,38.8,53,9,-0.9,42,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+43,38.3,45,7,-0.1,58,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+57,36.4,25,11,0.8,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.6,35,11,-0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,38.9,58,11,0.2,55,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+31,36.8,32,7,0.1,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+69,36.2,27,15,0.8,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+35,36.4,29,6,-0.1,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.9,32,7,-0.1,43,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+47,39.6,45,8,0.0,31,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+11,36.0,26,6,0.2,67,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+34,36.2,35,5,-0.5,54,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+21,36.3,35,11,-0.0,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+33,36.5,34,10,0.9,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+62,36.4,25,9,0.1,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+58,36.5,27,14,0.6,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+35,36.1,34,11,-0.9,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.1,30,9,-0.8,49,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+26,37.0,28,7,0.6,66,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+64,36.4,33,8,-0.7,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.3,31,9,-0.7,33,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+43,36.5,25,6,0.4,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.1,34,10,0.5,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,36.6,27,8,0.9,54,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+46,36.7,33,10,-0.1,100,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+15,36.4,33,9,0.6,63,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+52,36.2,33,11,0.2,49,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+49,36.8,26,4,0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+17,36.7,30,14,-0.5,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+36,36.7,26,10,0.5,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+46,36.3,28,10,-0.0,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+57,36.5,30,8,0.8,55,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+54,36.0,25,11,-0.8,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+56,38.8,44,4,0.7,54,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+53,36.8,30,8,-0.1,36,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+54,36.6,27,11,0.9,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+25,36.8,32,5,-0.6,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,36.6,26,7,-0.7,92,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+37,38.1,49,9,-0.4,47,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+69,36.8,26,10,0.2,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+54,36.4,35,11,0.0,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,36.4,32,7,-0.2,91,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+66,36.0,26,8,-0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+65,36.7,29,8,-0.6,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.2,31,8,-0.7,41,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+20,36.8,35,10,0.1,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.5,26,6,0.9,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,36.2,34,8,-0.9,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.9,26,11,-0.6,65,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+20,36.3,30,12,0.9,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+47,36.7,26,8,-0.7,94,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+21,36.8,35,6,-0.1,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+14,36.5,31,12,-0.2,100,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+28,36.3,33,11,0.3,90,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+38,36.6,31,15,-0.7,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,36.1,33,10,0.3,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+64,36.3,31,10,-0.2,44,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+34,36.4,34,5,-0.2,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+9,36.8,29,5,-0.1,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,36.9,34,6,-0.5,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+14,36.5,28,9,-0.2,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,36.3,25,15,-0.1,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+54,36.5,28,15,-0.2,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+66,36.9,28,14,0.1,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+36,36.9,31,10,0.2,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+52,36.2,34,9,0.9,96,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+24,36.8,29,11,-0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+16,36.9,27,10,-1.0,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,38.0,40,12,-0.3,26,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+36,36.6,29,6,0.1,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.9,31,12,0.2,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,37.0,33,9,-0.5,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.1,26,10,-0.3,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.3,34,9,-0.3,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+45,36.7,35,5,0.8,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+28,36.2,33,11,-0.8,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+16,36.1,33,14,0.3,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+5,39.1,47,10,-0.2,39,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+26,36.4,25,10,-0.8,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+50,36.1,25,11,0.7,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+42,36.5,27,6,-0.4,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+15,36.8,27,4,-0.0,91,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+62,36.7,31,8,0.6,46,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+44,36.5,25,10,0.1,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+28,36.8,34,11,-0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,36.5,27,9,-0.4,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+70,39.0,52,8,-0.6,36,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+29,36.4,29,10,0.6,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+50,36.0,28,7,0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.2,27,11,-0.7,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+38,36.8,28,7,0.1,35,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+40,36.8,33,5,-0.1,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.9,31,5,-0.3,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+13,36.7,34,10,-0.0,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+17,38.3,58,8,-0.6,21,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+24,36.8,25,7,-0.1,33,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+56,36.2,28,6,0.8,51,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+62,36.6,28,10,0.6,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+24,36.8,30,7,-0.4,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+42,36.7,30,8,0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.1,30,4,0.9,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.6,33,6,0.6,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.7,34,10,-0.0,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.5,33,5,0.6,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+7,36.3,25,12,-0.3,98,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+27,39.4,55,11,-0.7,28,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+60,37.0,30,8,0.4,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,38.1,42,7,-0.8,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+59,39.6,48,9,0.5,45,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+44,36.5,34,8,0.9,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+12,36.3,25,7,0.5,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+9,38.8,41,6,0.4,34,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+13,36.2,31,6,-0.1,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.7,25,5,0.3,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.3,33,6,0.3,65,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+23,36.0,30,10,0.8,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,38.8,46,6,-0.2,56,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+61,38.7,50,7,0.4,59,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+7,38.3,47,5,0.8,38,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+33,36.0,32,5,0.1,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.0,31,6,-0.4,97,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+53,36.6,30,11,0.3,97,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+31,36.4,30,11,-0.7,91,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+41,36.4,27,8,0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,36.3,33,11,0.1,99,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+10,36.8,34,12,0.7,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+34,36.5,30,12,-0.5,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.7,25,4,-0.2,93,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+28,36.7,34,11,-0.9,93,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+22,36.6,26,10,-0.9,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+15,36.4,31,8,0.8,48,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+68,36.7,30,15,-0.4,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+6,36.0,33,11,0.4,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+17,37.0,27,9,-0.7,61,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+32,36.3,32,4,0.1,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,36.2,28,12,-0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,36.1,27,8,0.5,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+7,36.2,27,8,0.2,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+9,36.9,34,12,0.8,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+63,36.0,35,6,-0.7,96,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+27,36.7,25,7,0.4,67,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+32,40.0,57,12,-0.6,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+7,36.6,34,8,0.9,37,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+5,36.8,35,15,-0.3,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,38.6,42,5,0.2,59,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+22,36.4,28,9,-0.2,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.3,35,6,0.1,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.5,29,11,-0.7,92,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+56,36.6,28,7,0.6,96,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+41,36.9,31,6,0.8,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,37.0,31,15,-1.0,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+6,37.0,32,5,0.4,98,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+57,36.8,25,12,0.1,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.5,33,13,0.9,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+29,36.6,27,5,1.0,32,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+46,36.5,34,8,0.9,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.4,34,8,-0.4,44,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+29,36.8,34,7,0.7,47,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+46,36.1,28,12,-0.7,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+28,36.1,32,14,-0.4,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+50,36.8,30,10,-0.2,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.1,27,12,-0.3,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,39.9,49,7,-0.4,38,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+48,37.0,28,12,0.5,36,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+65,36.3,34,11,0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,36.3,27,9,0.9,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+14,36.6,34,10,-0.3,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+35,36.5,32,9,0.8,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+60,36.7,33,14,0.4,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+67,36.7,28,15,-1.0,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+13,36.9,34,11,-0.3,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.0,27,13,0.6,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+21,39.3,51,10,0.4,37,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+22,36.8,34,5,0.6,50,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+8,39.8,42,5,0.4,55,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+34,36.8,34,12,0.6,94,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+6,39.1,40,4,0.0,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+55,37.0,28,12,-0.0,96,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+55,36.2,26,6,0.0,94,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+11,36.7,26,4,-0.0,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+70,36.2,25,4,-0.0,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+15,36.5,29,12,-0.8,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+42,36.2,25,5,-0.6,99,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+60,36.7,26,10,-0.3,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+34,36.4,30,10,0.8,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+35,36.1,33,11,-0.6,99,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+45,36.3,25,11,0.9,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.3,25,6,0.6,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.2,28,11,0.5,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,36.5,28,15,-0.3,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+39,36.6,29,5,0.7,93,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+44,36.5,27,7,0.1,92,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+58,36.7,33,4,0.4,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.2,34,6,0.2,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+40,36.5,25,10,0.3,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+32,37.0,27,6,-0.9,34,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+52,36.4,25,11,-0.6,96,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+66,36.7,29,6,-0.1,34,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+53,36.5,25,10,0.0,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+30,38.1,60,8,0.3,36,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+25,36.4,34,11,0.7,93,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+54,36.0,29,6,0.7,99,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+68,36.8,31,10,0.0,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,36.8,29,12,0.8,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+54,36.7,25,4,0.2,93,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+53,38.6,60,8,0.6,42,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+64,36.3,35,8,-0.5,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+67,36.3,25,8,0.5,42,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+26,36.1,28,7,-0.8,43,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+53,36.3,26,10,-0.5,42,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+16,36.2,30,7,0.4,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+45,36.3,25,13,-0.2,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+44,36.4,35,10,-0.2,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,36.8,29,6,-0.7,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,36.1,26,9,0.4,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+70,38.6,41,8,0.5,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+48,39.9,57,9,0.2,32,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+41,36.4,30,9,-0.7,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+24,36.0,28,8,-0.8,37,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+69,36.8,34,12,-0.5,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.0,31,5,-0.9,57,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+32,36.9,29,6,-0.7,96,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+58,36.1,27,13,0.5,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+65,36.8,29,9,-0.3,43,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+64,36.3,35,9,0.8,92,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+65,36.1,28,4,0.3,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.0,27,13,-0.1,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+43,36.8,30,8,1.0,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.2,27,6,-0.2,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.7,34,4,-0.3,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+44,36.2,29,11,0.4,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.6,31,12,0.2,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+29,36.7,25,12,0.8,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+68,37.0,30,5,-0.3,100,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+50,36.5,32,4,-0.2,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+14,36.9,30,12,0.7,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.6,26,11,-0.2,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.7,34,15,-0.2,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+48,37.0,31,10,0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,36.9,27,7,0.7,94,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+51,36.7,32,8,0.0,90,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+52,37.0,25,6,-0.1,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.8,28,12,-0.7,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.3,34,8,0.9,90,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+27,36.7,32,13,1.0,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+7,36.9,28,12,0.5,54,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+37,36.4,35,10,-0.9,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+51,36.1,27,6,-0.0,49,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+30,36.4,31,4,0.7,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,37.0,27,10,-0.9,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+28,36.3,29,15,-0.1,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+32,36.9,28,12,0.5,98,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+49,37.0,29,11,0.5,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+44,36.9,26,8,0.6,66,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+33,37.0,30,11,-0.0,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+30,36.9,28,12,0.0,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+46,36.6,27,8,0.2,32,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+5,36.5,29,12,-0.7,37,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+57,36.6,26,11,0.9,55,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+6,36.5,28,11,-0.2,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+34,36.3,28,9,0.3,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+42,36.3,32,12,0.5,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+12,38.8,57,10,0.5,41,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+50,37.0,28,10,0.8,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.8,33,12,1.0,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,36.4,25,4,-0.8,95,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+11,36.7,29,12,-0.0,52,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+46,36.7,35,5,-1.0,66,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+6,36.7,25,10,0.4,46,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+39,37.0,27,5,0.2,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,38.6,45,6,0.8,39,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+11,36.4,26,11,-0.4,55,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+51,36.5,31,10,-0.2,93,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+54,37.0,32,8,0.6,63,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+58,36.5,35,12,-0.4,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+8,36.1,31,13,-0.4,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+64,36.8,35,8,-0.8,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+68,36.3,34,12,-0.2,93,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+44,36.1,33,13,-0.6,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+67,39.5,50,10,0.6,50,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+15,36.6,27,7,0.9,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+69,36.1,34,7,-0.2,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.6,32,7,0.2,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,38.7,58,5,-0.7,56,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+30,36.3,29,4,0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,40.0,47,12,0.4,59,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+43,36.7,34,8,0.1,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+34,36.9,27,5,0.1,63,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+51,36.9,30,11,-0.4,91,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+25,39.5,42,8,0.1,57,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+69,36.1,30,14,0.9,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+50,36.3,26,14,0.8,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+63,38.5,44,12,-0.2,41,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+49,36.2,35,14,0.8,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+10,36.5,33,6,0.7,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+37,36.4,29,11,0.4,94,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+62,36.5,28,9,-0.9,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+22,36.7,27,12,0.1,41,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+33,36.5,32,11,-0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+52,36.2,26,11,-0.8,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+12,36.5,31,5,-0.5,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,39.9,52,6,-0.7,36,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+17,36.5,27,10,0.2,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+58,36.6,31,10,0.8,95,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+62,36.8,28,11,0.6,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+17,36.1,34,7,-0.5,58,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+42,39.9,52,6,0.5,56,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+57,36.7,34,5,-0.1,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+46,36.6,29,11,0.9,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+17,36.2,32,11,-0.9,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+16,36.7,35,8,0.7,93,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+37,36.8,25,9,0.2,94,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+56,38.8,45,7,-0.9,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+36,36.6,32,10,-0.3,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+7,36.0,34,5,0.5,43,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+55,36.5,27,9,-0.6,91,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+20,36.5,26,4,-0.3,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+63,38.5,55,7,-0.8,28,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+30,36.2,29,12,0.8,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.0,25,10,0.7,98,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+63,37.0,26,10,0.3,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+17,36.2,32,11,-0.4,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+64,36.1,34,7,0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+41,36.6,27,15,0.3,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+12,36.1,31,7,-0.8,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+69,36.8,25,9,0.4,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.8,32,6,-0.2,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,36.5,32,12,0.6,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+45,36.9,30,10,-0.6,65,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+19,36.4,30,6,-0.4,100,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+9,36.4,33,11,0.4,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,36.9,25,12,0.4,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+64,36.7,35,8,0.3,35,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+21,36.8,29,10,0.8,38,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+32,36.2,33,7,-0.2,67,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+8,36.5,25,10,0.3,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+69,36.6,35,12,-0.4,54,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+68,36.9,27,5,-0.8,69,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+15,38.8,43,8,0.1,42,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+55,36.7,33,9,-0.8,57,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+9,39.7,50,10,0.7,34,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+44,36.2,35,10,0.7,44,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+33,36.5,33,5,-0.5,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+11,36.8,32,11,0.9,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+43,36.8,29,5,-0.8,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,36.4,30,4,-0.6,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.7,32,10,0.6,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.2,33,5,0.1,93,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+14,36.7,33,5,0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.4,33,7,-0.6,60,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+5,36.9,29,15,-0.1,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+47,36.2,28,9,0.2,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+40,36.5,29,4,-0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+65,36.1,35,11,0.9,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+63,36.4,25,12,-0.1,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+11,36.2,33,7,0.2,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.9,28,7,0.8,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+58,36.1,30,10,-0.2,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.6,30,7,0.9,99,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+43,36.2,34,11,-0.9,70,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+15,36.3,25,7,-1.0,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+38,36.4,28,13,-0.8,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+61,36.7,25,13,-0.1,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,38.3,46,7,0.8,57,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+49,36.8,27,12,0.5,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+34,36.9,28,12,-0.2,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+41,40.0,57,12,0.4,47,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+68,36.7,25,9,-0.3,90,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+43,36.6,31,10,0.9,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+37,36.7,26,6,0.1,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+28,36.8,34,6,-0.2,70,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+14,36.3,30,12,0.6,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+49,36.3,34,9,0.9,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+67,36.1,27,9,0.8,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+54,39.8,42,11,-1.0,31,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+33,38.2,52,4,-0.5,22,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+56,36.8,25,11,-0.3,90,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+15,36.4,31,12,0.6,96,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+30,36.5,28,11,-0.9,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,36.2,28,12,-0.3,51,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+38,39.2,48,12,-0.2,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+40,39.0,58,12,0.6,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+55,39.3,54,11,0.3,44,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+59,36.2,34,7,-0.1,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,36.6,28,9,-0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.9,33,15,-0.2,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+41,36.7,32,12,-0.3,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+7,36.2,35,10,0.0,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+37,36.1,29,7,-0.5,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.8,30,8,0.8,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+40,36.9,26,4,0.4,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+11,36.2,26,5,0.9,95,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+40,36.5,33,5,0.2,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+65,36.2,25,11,-0.5,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+45,36.4,27,15,-0.9,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+63,36.5,34,12,0.6,97,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+7,36.7,25,10,-0.4,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,36.9,29,4,-0.1,64,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+53,37.0,28,10,0.3,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+41,36.2,25,10,-0.4,92,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+65,36.9,25,6,0.2,63,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+19,36.1,27,10,-0.9,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.8,26,5,0.6,35,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+66,36.8,34,7,-0.7,30,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+57,36.3,33,9,0.1,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,37.0,26,9,0.5,39,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+50,36.9,28,9,-0.4,32,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+32,36.0,26,11,0.1,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+26,36.6,33,12,0.9,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+48,36.8,25,11,0.2,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+7,36.3,32,6,-0.6,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,38.6,58,10,0.6,58,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+25,36.5,27,10,-0.8,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+32,36.9,27,10,-0.5,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.2,35,10,-0.6,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+21,38.5,43,12,0.2,32,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+8,36.6,28,10,-0.2,99,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+25,36.5,26,10,-0.8,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.3,30,5,-0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+68,36.1,32,12,0.9,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,36.6,31,12,-0.3,40,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+51,36.3,26,5,0.8,98,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+55,36.8,35,7,-0.9,57,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+57,36.2,25,8,-0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+9,36.5,27,7,0.7,53,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+33,36.4,29,7,-1.0,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+60,36.3,35,12,0.4,56,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+48,38.4,44,7,-0.9,49,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+67,36.3,26,12,-0.0,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.3,26,8,-0.2,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+17,36.2,30,7,0.6,69,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+51,36.9,32,13,-0.3,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+12,37.0,34,10,0.8,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+64,36.6,31,10,-0.8,94,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+59,36.1,35,4,-0.7,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.4,28,7,0.6,92,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+13,36.2,29,12,0.2,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+25,36.8,25,12,1.0,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+23,36.3,34,4,0.6,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+37,36.1,25,5,0.3,47,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+67,39.1,58,4,-0.3,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+43,36.9,35,6,-0.8,32,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+25,36.5,25,12,-0.2,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,36.1,34,6,-0.7,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.6,28,11,0.0,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+23,36.4,31,11,0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+6,38.7,47,9,-0.8,40,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+14,36.7,25,6,0.0,58,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+6,36.2,26,8,-0.1,63,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+9,36.6,32,11,0.4,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+17,36.8,33,10,-0.5,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+69,38.1,55,11,-0.6,52,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+60,36.2,31,11,-0.5,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+37,36.5,29,12,0.3,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+15,39.8,51,11,-0.8,45,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+37,38.7,49,11,0.8,47,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+68,36.4,27,12,-0.6,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.0,26,13,0.8,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+52,36.3,26,4,0.4,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,36.9,34,8,-0.5,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.1,30,5,0.6,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,36.9,27,4,-0.5,91,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+66,36.4,29,12,0.8,40,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+28,36.4,28,5,-0.3,59,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+47,37.0,34,15,-0.2,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+17,36.5,34,14,-0.7,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+21,36.8,26,10,-0.8,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+32,36.1,32,6,-0.0,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.0,29,12,1.0,90,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+36,36.5,26,10,-0.9,94,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+49,39.0,59,4,-1.0,50,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+43,36.8,25,12,-0.1,94,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
+23,36.8,35,11,1.0,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,40.0,41,11,0.9,39,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+26,36.3,32,7,-1.0,35,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+35,36.4,34,15,-0.8,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+6,36.2,34,9,-0.7,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+28,36.9,32,6,0.8,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+32,36.2,35,8,0.3,92,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+47,36.5,27,9,0.4,99,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+57,36.2,34,12,-0.4,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+20,38.2,46,4,0.1,58,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+58,36.9,33,12,0.2,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+52,37.0,34,10,0.5,100,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+13,36.2,34,5,-0.8,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+60,39.9,48,11,1.0,33,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+48,36.1,35,8,-0.1,93,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+70,36.1,26,11,-0.2,65,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+34,36.0,25,9,0.6,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,36.6,32,9,-1.0,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+37,36.1,26,15,-1.0,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+46,36.5,27,14,0.8,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+24,36.8,29,7,1.0,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+9,36.4,26,12,-0.9,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+46,36.5,33,11,-0.1,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+44,39.7,46,6,0.2,60,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+14,36.2,29,7,0.4,42,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+19,36.1,35,6,-1.0,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+50,36.5,29,9,-0.8,57,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+8,38.2,40,8,0.4,34,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+10,36.0,33,5,-0.8,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+17,36.0,34,15,-0.9,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,36.1,27,12,0.1,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+39,36.5,29,10,-0.5,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+8,36.5,34,4,0.1,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,38.4,52,8,-0.6,35,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+28,36.9,33,13,0.8,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+45,36.3,29,9,0.3,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+42,36.8,29,7,-0.9,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+37,36.6,35,12,0.8,91,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+16,36.1,26,4,0.6,55,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+6,36.8,34,4,-0.5,47,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+15,39.4,59,8,-0.2,36,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+24,36.7,25,12,0.0,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+48,36.1,25,6,-0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,39.1,56,11,-0.9,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+42,36.0,31,5,-0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+13,36.6,28,10,-0.6,92,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+30,36.2,33,5,-0.8,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.2,34,12,0.9,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+11,36.6,32,9,0.5,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+5,36.6,31,6,-0.9,41,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+29,36.6,26,10,-0.4,34,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+57,36.9,34,8,0.4,98,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+8,36.4,34,9,-0.5,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+43,36.7,28,6,0.1,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+38,36.4,32,12,0.9,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+65,36.9,25,11,0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+23,36.7,34,10,0.3,49,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+48,36.1,31,10,-0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+18,37.0,33,8,0.8,58,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+66,36.8,27,15,0.3,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+14,36.1,34,12,-0.7,37,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+29,36.6,27,5,0.7,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+59,36.2,25,5,-0.1,95,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+30,36.8,30,11,0.3,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.6,35,11,-0.5,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.3,27,9,-0.7,97,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+9,36.9,28,10,-0.5,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+33,36.8,30,6,-0.8,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+61,38.2,47,6,0.4,51,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+33,36.0,26,6,-0.1,91,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+64,36.7,27,11,-0.3,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+52,38.7,59,8,-0.2,36,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+44,36.6,32,8,-1.0,100,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+59,36.6,25,12,0.1,62,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+38,36.4,26,4,-0.5,100,Normal,Low,No_Edema,Moist,Pink,Limping,Arthritis,Joint Inflammation
+16,36.9,34,6,-0.1,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+15,36.8,26,7,0.7,99,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+42,39.3,44,12,-0.4,30,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+53,36.1,28,10,-0.9,93,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+27,36.6,31,14,0.8,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+69,38.5,40,10,0.6,43,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+22,36.2,28,9,0.3,97,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+24,36.2,31,7,0.6,30,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+64,36.8,26,6,-0.3,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.9,26,8,0.3,37,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+52,36.6,33,12,-0.1,97,Normal,Low,Joints,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+47,36.9,26,10,-0.3,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,36.2,31,13,0.5,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+59,38.7,45,12,0.8,38,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+15,36.0,34,6,0.4,96,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+36,37.0,34,9,0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.3,30,6,0.9,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+51,37.0,30,10,0.5,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+63,36.0,31,12,-0.1,91,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+54,36.3,26,10,-0.4,97,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+46,36.2,32,10,-0.8,95,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+38,36.3,26,5,0.6,94,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+19,39.7,57,7,0.3,28,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+14,36.4,25,9,0.4,99,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+53,36.6,25,14,-0.8,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+20,36.8,25,12,-0.7,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+54,36.7,26,11,-0.1,92,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+62,36.3,34,8,0.8,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+31,36.0,27,9,0.5,64,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+54,36.9,32,11,0.5,100,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+15,36.7,30,8,-0.5,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+13,36.8,25,10,0.9,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+19,39.9,46,7,-0.3,44,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+46,36.4,26,12,-0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+57,36.8,31,8,-0.6,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,36.0,25,11,-0.7,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,36.4,30,9,0.2,94,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+53,36.2,26,11,0.4,38,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+7,36.8,34,12,-0.7,68,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+5,36.7,29,10,-1.0,97,Normal,Low,Joints,Moist,Pink,Slow,Arthritis,Joint Inflammation
+24,36.0,27,11,-0.5,97,Normal,Low,Legs,Moist,Pink,Slow,Arthritis,Joint Inflammation
+46,36.3,29,10,-0.7,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+67,36.5,31,9,-0.8,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.4,28,4,-0.5,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+8,36.3,25,9,-0.8,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+53,36.2,28,7,1.0,90,Normal,Low,No_Edema,Moist,Pink,Slow,Arthritis,Joint Inflammation
+13,36.8,29,12,0.3,56,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+48,36.8,33,10,-0.4,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+47,36.8,27,15,0.4,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+44,36.8,31,10,-0.4,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+33,36.3,34,4,0.0,70,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+31,39.9,51,8,-0.2,30,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+49,36.3,31,11,0.2,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+35,37.0,33,11,-0.4,90,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+27,36.6,35,12,0.0,95,Normal,Low,No_Edema,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+9,36.9,27,10,0.1,37,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+24,36.4,33,12,0.8,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+7,37.0,31,6,0.6,97,Normal,Low,Legs,Moist,Pink,Limping,Arthritis,Joint Inflammation
+35,38.9,53,4,0.6,55,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+20,36.4,32,6,-0.2,48,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+43,37.0,34,8,-0.7,49,Loose,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+32,38.0,43,5,-0.0,52,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+22,36.2,31,11,-0.9,55,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+52,36.3,32,9,-0.6,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+49,36.7,33,6,-0.9,92,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.2,27,11,-0.3,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+68,36.3,31,11,-0.5,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+61,36.6,35,9,-0.0,48,Undigested,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+24,38.9,48,4,0.8,56,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+46,36.2,30,6,0.5,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+56,38.3,55,4,0.2,23,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+67,36.7,26,8,-0.1,99,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+29,36.2,34,9,0.5,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+58,36.1,26,5,0.8,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+48,36.4,30,12,-0.6,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+36,36.5,31,12,0.7,94,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+21,36.7,35,14,0.2,99,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+21,36.0,26,7,0.1,44,Constipated,Restless,No_Edema,Moist,Pink,Normal,Indigestion,Colic / Digestion Issue
+49,36.5,34,10,0.6,100,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+65,39.7,52,9,-0.1,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+56,36.4,28,4,-0.4,96,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+10,36.6,26,4,-0.6,98,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+41,36.4,30,11,0.9,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+66,36.9,28,14,-0.7,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+38,39.2,44,5,-0.3,48,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+50,36.2,25,14,-0.4,90,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+18,36.8,27,5,-0.9,95,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+34,36.1,28,6,-0.7,93,Normal,Low,Legs,Moist,Pink,Stiff,Arthritis,Joint Inflammation
+16,39.7,53,6,0.2,45,Normal,Lethargic,No_Edema,Moist,Pink,Normal,Infection,Bacterial/Viral Infection
+49,36.9,27,14,-0.4,98,Normal,Normal,No_Edema,Dry,Pale,Normal,Dehydration,Severe Dehydration
+54,36.5,30,7,0.6,97,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+20,37.0,28,9,0.7,91,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+61,36.8,33,12,1.0,93,Normal,Normal,No_Edema,Moist,Pink,Normal,Healthy,No_Diagnosis
+45,36.4,25,6,-0.8,100,Normal,Low,Joints,Moist,Pink,Limping,Arthritis,Joint Inflammation
