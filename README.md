@@ -47,7 +47,7 @@ Intelligent-Elephant-Care-and-Visitor-Insight-/
 │   │
 │   ├── core_logic/                     # AI & Business Logic Modules
 │   │   ├── health_predictor.py         # Loads & runs health/diagnosis AI models
-│   │   ├── antigravity_core.py         # AI food quantity calculation engine
+│   │   ├── food_quantity_engine.py     # AI food quantity calculation engine
 │   │   ├── food_chain_logic.py         # Herd-level daily food recommendation logic
 │   │   ├── camera.py                   # Webcam video feed with real-time stress overlay
 │   │   ├── detect.py                   # Computer vision stress detection pipeline
@@ -142,7 +142,7 @@ Intelligent-Elephant-Care-and-Visitor-Insight-/
 | Input | Optical Flow motion features (30-frame buffer) |
 | Output | Binary: `0` (Normal) / `1` (Stressed) with probability |
 
-### Antigravity Food Engine (`core_logic/antigravity_core.py`)
+### AI Food Quantity Engine (`core_logic/food_quantity_engine.py`)
 - Rule-based nutritional calculation engine
 - Base food = 5% of elephant body weight
 - Multiplied by activity modifier, weather modifier, and health modifier
