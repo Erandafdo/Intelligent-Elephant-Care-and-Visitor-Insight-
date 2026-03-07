@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core_logic.reporting import generate_daily_report, generate_monthly_summary
 from core_logic.food_chain_logic import process_daily_recommendations
 from core_logic.reporting import get_connection
-from core_logic.antigravity_core import recommend_food
+from core_logic.food_quantity_engine import recommend_food
 
 st.set_page_config(page_title="Pinnawala Orphanage Food Chain", layout="wide")
 

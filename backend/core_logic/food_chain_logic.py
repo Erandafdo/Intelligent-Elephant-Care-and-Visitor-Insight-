@@ -1,4 +1,4 @@
-from .antigravity_core import recommend_food
+from .food_quantity_engine import recommend_food
 from .reporting import get_connection
 import pandas as pd
 from datetime import datetime

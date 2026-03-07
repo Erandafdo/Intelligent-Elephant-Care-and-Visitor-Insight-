@@ -7,7 +7,7 @@ import os
 import cv2  # For video feed
 from flask import Response
 from core_logic.camera import VideoCamera
-from core_logic.antigravity_core import recommend_food
+from core_logic.food_quantity_engine import recommend_food
 from core_logic.reporting import generate_daily_report
 from core_logic import health_predictor
 
